@@ -2,7 +2,7 @@ import time
 class User(object):
     """A user class with typical attributes like name,phone,email etc"""
     def __init__(self):
-        self.dob = time.strftime("%d/%m/%Y") //the date on which data is entered is set.
+        self.dob = time.strftime("%d/%m/%Y") #the date on which data is entered is set.
         print self.__doc__
 
     def get(self):
