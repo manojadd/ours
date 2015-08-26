@@ -33,3 +33,4 @@ class Contacts(object):
 manoj = User()
 manoj.get()
 manoj.dis()
+obj = Contacts()
